@@ -1,0 +1,23 @@
+package conoceredad;
+import javax.swing.JOptionPane;
+
+public class Edad {
+public static void main(String[] args){{
+int dia=0;
+int mes=0;
+int año=0;
+int edad=0;
+int dias=0;
+int meses=0;
+int años=0;
+dia=Integer.parseInt(JOptionPane.showInputDialog("Ingresar Dia de Nacimiento"));
+meses=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el Mes que nacio"));
+año=Integer.parseInt(JOptionPane.showInputDialog("Ingresar el año de  Nacimiento"));
+dias=31-dia;
+meses=12-meses;
+años=2017-año;
+JOptionPane.showMessageDialog(null,"su edad es "+años+"años con "+meses+"meses y "+dias+"dias");
+System.exit(0);
+}
+}
+1.
